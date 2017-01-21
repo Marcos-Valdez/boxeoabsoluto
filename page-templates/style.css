@@ -1,0 +1,304 @@
+/*
+Theme Name: Training
+Author: Marcos Valdez Contreras
+Description: Entrenamiento continuo
+Version: 1.0
+*/
+
+
+/*========================================
+Estilos generales
+========================================*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #932026;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Dosis;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: italic;
+  font-family: Dosis;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+p.date {
+  font-size: .8em;
+  font-weight: normal;
+  margin: 5px 0px;
+}
+
+p.categories {
+  margin-bottom: 3px;
+  font-size: .9em;
+  font-style: bold;
+  font-weight: 500;
+  font-family: Lato;
+}
+
+p#copyright {
+  border-top: 1.5px solid black;
+  padding: 15px 0px;
+  color: white;
+  text-align: center;
+}
+
+ul, ul li, ul li a {
+  list-style-type: none;
+}
+
+ol, ol li, ol li a {
+  list-style-type: none;
+}
+
+img {
+  width: 100%; height: auto;
+}
+
+
+/*========================================
+Estilos index
+========================================*/
+
+
+body.index {
+  background-color: #eeeeee;
+}
+
+#all {
+  width: 90%; height: auto;
+  margin: 0 auto;
+}
+
+header {
+  float: left;
+  width: 100%; height: 150px;
+  background-color: #932026;
+}
+
+header #imgHeader {
+  float: left;
+  width: 300px; height: 150px;
+}
+
+header #imgHeader img {
+  width: 100%; height: auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  float: right;
+  margin-top: 60px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav ul li a {
+  float: right;
+  margin-right: 30px;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Raleway;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+main {
+  float: left;
+  width: 98%; height: auto;
+  padding-top: 50px;
+  padding-left: 1%; padding-right: 1%;
+  background-color: white;
+}
+
+img.main {
+  padding: 3px 0px;
+}
+
+#section1 {
+  float: left;
+  width: 43%; height: auto;
+  border-right: 1px dotted #cccccc;
+  padding: 1%;
+}
+
+#section2 {
+  float: left;
+  width: 25%; height: auto;
+  padding: 1%;
+}
+
+#section3 {
+  float: left;
+  width: 25%; height: auto;
+  border-left: 1px dotted #cccccc;
+  padding: 1%;
+}
+
+article.index {
+  float: left;
+  width: 100%; height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  float: left;
+  width: 100%; height: auto;
+  background-color: #932026;
+}
+
+/*========================================
+Estilos single
+========================================*/
+
+#single {
+  width: 65%; height: auto;
+  margin: 0 auto;
+}
+
+h1.single-title{
+
+}
+
+p.author-post {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 13px 0px;
+}
+
+img.single {
+  width: 100%; height: 100%;
+  margin: 10px 0px;
+}
+
+img.single img{
+  width: 700px; height: 350px;
+}
+
+/*========================================
+Estilos archive
+========================================*/
+
+main.archive {
+  float: left;
+  width: 100%; height: auto;
+}
+
+h1.section {
+  width: 80%; height: auto;
+  margin: 0 auto;
+  border-bottom: 1.5px solid black;
+  text-align: center;
+  font-size: 2em;
+  font-style: normal;
+  font-family: monospace;
+}
+
+article.archive {
+  width: 80%; height: auto;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+h1.archive-title{
+  width: 100%; height: auto;
+}
+
+img.archive-img {
+  width: 300px; height: 150px;
+}
+
+img.archive-img img{
+  width: 100%; height: auto;
+}
+
+p.date-archive{
+  width: 100%; height: auto;
+  font-size: .8em;
+  font-weight: normal;
+  margin: 5px 0px;
+}
+
+p.excerpt-archive{
+  width: 50%; height: auto;
+}
+
+/*========================================
+Estilos page-calendar
+========================================*/
+
+.calendar {
+  width: 80%; height: auto;
+  margin: 0 auto;
+  padding: 5px 0px;
+  padding-bottom: 30px;
+  position: relative;
+  right: 70px;
+}
+
+.calendar h1.title-calendar {
+  width: 100%; height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+/*========================================
+Estilos page-libraxlibra
+========================================*/
+
+.libra {
+  width: 80%; height: auto;
+  margin: 0 auto;
+  padding: 5px 0px;
+  padding-bottom: 30px;
+}
+
+.libra h1.title-libra {
+  width: 100%; height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 2.5em;
+  font-style: italic;
+}

@@ -1,240 +1,1237 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1140px) {
 
-    #all{
-      display: block;
-      width: 85%; height: auto;
-      margin: 0 auto;
-    }
+  #all {
+    display: block;
+    width: 90%; height: auto;
+  }
 
-    header{
-      display: block;
-      width: 100%; height: 150px;
-    }
+  header {
+    display: block;
+    width: 100%; height: 150px;
+  }
 
-    nav{
-      display: block;
-      margin-right: 30px;
-    }
+  section.search {
+    display: block;
+    width: 33.333%; height: 150px;
+  }
 
-    main{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.imgHeader {
+    display: block;
+    width: 33.333%; height: auto;
+  }
 
-    article.list-articles{
-      display: block;
-      width: 65%; height: auto;
-    }
+  section.redes {
+    display: block;
+    width: 33.333%; height: auto;
+  }
 
-    img{
-      display: block;
-      width: 100%; height: auto;
-    }
+  nav{
+    display: block;
+    width: 100%; height: auto;
+  }
 
-    article.articles{
-      display: block;
-      width: 63%; height: auto;
-      position: relative;
-      left: 60px;
-    }
+  main {
+    display: block;
+    width: 98%; height: auto;
+  }
 
-    footer{
-      display: block;
-      width: 100%; height: auto;
-    }
+  #section1 {
+    display: block;
+    width: 33%; height: auto;
+  }
+
+  #section2 {
+    display: block;
+    width: 30%; height: auto;
+  }
+
+  #section3 {
+    display: block;
+    width: 30%; height: auto;
+  }
+
+  footer {
+    display: block;
+    width: 100%; height: auto;
+  }
+
 }
 
 @media screen and (max-width: 960px) {
 
-    #all{
-      display: block;
-      width: 85%; height: auto;
-      margin: 0 auto;
-    }
+  #all {
+    display: block;
+    width: 90%; height: auto;
+  }
 
-    header{
-      display: block;
-      width: 100%; height: 150px;
-    }
 
-    nav{
-      display: block;
-      margin-right: 30px;
-    }
+  header {
+    display: block;
+    width: 100%; height: 150px;
+  }
 
-    main{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.search {
+    display: none;
+    width: 50%; height: 150px;
+  }
 
-    article.list-articles{
-      display: block;
-      width: 75%; height: auto;
-    }
+  section.imgHeader {
+    display: block;
+    width: 50%; height: auto;
+  }
 
-    img{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.redes {
+    display: block;
+    width: 33.333%; height: auto;
+  }
 
-    article.articles{
-      display: block;
-      width: 73%; height: auto;
-      position: relative;
-      left: 40px;
-    }
+  nav{
+    display: block;
+    width: 100%; height: auto;
+  }
 
-    footer{
-      display: block;
-      width: 100%; height: auto;
-    }
+  main {
+    display: block;
+    width: 98%; height: auto;
+  }
+
+  #section1 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  img.main {
+    display: block;
+    float: right;
+    width: 50%; height: auto;
+  }
+
+  p.categories p.date {
+    display: block;
+    float: left;
+    width: 50%; height: auto;
+  }
+
+  p.extract {
+    display: block;
+    float: left;
+    width: 50%; height: auto;
+  }
+
+  #section2 {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  #section3 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  article.index {
+    display: block;
+    width: 100%; height: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+
+  }
+
+  article.index-left {
+    display: block;
+    float: left;
+    width: 98%; height: auto;
+    margin-bottom: 10px;
+    padding: 1%;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+  }
+
+  article.index-right {
+    display: block;
+    float: right;
+    width: 98%; height: auto;
+    margin-bottom: 10px;
+    padding: 1%;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    display: block;
+    width: 100%; height: auto;
+  }
+
 }
+
 
 @media screen and (max-width: 800px) {
 
-    #all{
-      display: block;
-      width: 85%; height: auto;
-      margin: 0 auto;
-    }
+  #all {
+    display: block;
+    width: 90%; height: auto;
+  }
 
-    header{
-      display: block;
-      width: 100%; height: 150px;
-    }
+  header {
+    display: block;
+    width: 100%; height: 150px;
+  }
 
-    nav{
-      display: block;
-      margin-right: 30px;
-    }
+  section.search {
+    display: none;
+    width: 50%; height: 150px;
+  }
 
-    main{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.imgHeader {
+    display: block;
+    width: 50%; height: auto;
+  }
 
-    article.list-articles{
-      display: block;
-      width: 85%; height: auto;
-    }
+  section.redes {
+    display: block;
+    width: 50%; height: auto;
+  }
 
-    img{
-      display: block;
-      width: 100%; height: auto;
-    }
+  .menu-trigger {
+    display: block;
+    width: 100%; height: auto;
+    padding: 13px 0px;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: Merriweather;
+  }
 
-    article.articles{
-      display: block;
-      float: none;
-      width: 83%; height: auto;
-      margin: 0 auto;
-      position: relative;
-      left: 0px;
-    }
+  nav{
+    display: block;
+    width: 100%; height: auto;
+    left:-100%;
+    margin-top: 200px;
+    position: fixed;
+  }
 
-    footer{
-      display: block;
-      width: 100%; height: auto;
-    }
+	nav ul {
+		display:block;
+		float:none;
+    width: 50%;
+    border: 5px solid #cccccc;
+	}
+
+  nav ul li {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  nav ul li a{
+    display: block;
+    width: 100%; height: auto;
+    padding: 13px 0px;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  nav ul li a:hover {
+    background-color: #932026;
+    color: white;
+  }
+
+	.menu-trigger {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu-trigger {
+		display:block;
+		padding:10px;
+		background-color: white;
+		color: black;
+    border-bottom: 1px solid #cccccc;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu-trigger {
+		float:right;
+	}
+
+  main {
+    display: block;
+    width: 98%; height: auto;
+  }
+
+  #section1 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  img.main {
+    display: block;
+    float: right;
+    width: 50%; height: auto;
+  }
+
+  p.categories p.date {
+    display: block;
+    float: left;
+    width: 50%; height: auto;
+  }
+
+  p.extract {
+    display: block;
+    float: left;
+    width: 50%; height: auto;
+  }
+
+  #section2 {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  #section3 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  article.index-left {
+    float: left;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    padding: 1%;
+  }
+
+  article.index-right {
+    float: right;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    padding: 1%;
+  }
+
+  footer {
+    display: block;
+    width: 100%; height: auto;
+  }
+
 }
-
 
 @media screen and (max-width: 640px) {
 
-    #all{
-      display: block;
-      width: 90%; height: auto;
-      margin: 0 auto;
-    }
+  #all {
+    display: block;
+    width: 95%; height: auto;
+  }
 
-    header{
-      display: block;
-      width: 100%; height: 150px;
-    }
+  header {
+    display: block;
+    width: 100%; height: 150px;
+  }
 
-    nav{
-      display: block;
-      margin-right: 30px;
-    }
+  section.search {
+    display: none;
+    width: 50%; height: 150px;
+  }
 
-    main{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.imgHeader {
+    display: block;
+    width: 50%; height: auto;
+  }
 
-    article.list-articles{
-      display: block;
-      width: 90%; height: auto;
-    }
+  section.redes {
+    display: none;
+    width: 50%; height: auto;
+  }
 
-    img{
-      display: block;
-      width: 100%; height: auto;
-    }
+  nav{
+    display: block;
+    width: 100%; height: auto;
+  }
 
-    article.articles{
-      display: block;
-      float: none;
-      width: 90%; height: auto;
-      margin: 0 auto;
-      position: relative;
-      left: 0px;
-    }
+  main {
+    display: block;
+    width: 98%; height: auto;
+  }
 
-    footer{
-      display: block;
-      width: 100%; height: auto;
-    }
+  #section1 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  img.main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  p.categories p.date {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  p.extract {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  #section2 {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  #section3 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  article.index-left {
+    float: left;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    padding: 1%;
+  }
+
+  article.index-right {
+    float: right;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    padding: 1%;
+  }
+
+  footer {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .widget-footer{
+    display: block;
+    width: 100%; height: auto;
+  }
 
 }
 
 
 @media screen and (max-width: 400px) {
 
-    body{
-      background-color: white;
-    }
+  #all {
+    display: block;
+    width: 95%; height: auto;
+  }
 
-    #all{
-      display: block;
-      width: 95%; height: auto;
-      margin: 0 auto;
-    }
+  header {
+    display: block;
+    width: 100%; height: 200;
+  }
 
-    header{
-      display: block;
-      width: 100%; height: 150px;
-    }
+  section.search {
+    display: none;
+    width: 50%; height: 200px;
+  }
 
-    nav{
-      display: block;
-      margin-right: 30px;
-    }
+  section.imgHeader {
+    display: block;
+    width: 100%; height: auto;
+  }
 
-    main{
-      display: block;
-      width: 100%; height: auto;
-    }
+  section.redes {
+    display: none;
+    width: 100%; height: auto;
+  }
 
-    article.list-articles{
-      display: block;
-      width: 95%; height: auto;
-    }
+  nav{
+    display: block;
+    width: 100%; height: auto;
+  }
 
-    img{
-      display: block;
-      width: 100%; height: auto;
-    }
+  main {
+    display: block;
+    width: 98%; height: auto;
+  }
 
-    article.articles{
-      display: block;
-      float: none;
-      width: 95%; height: auto;
-      margin: 0 auto;
-    }
+  #section1 {
+    display: block;
+    width: 99%; height: auto;
+    border: none;
+  }
 
-    footer{
-      display: block;
-      width: 100%; height: auto;
-    }
+  img.main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  p.categories p.date {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  p.extract {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  #section2 {
+    display: block;
+    width: 99%; height: auto;
+  }
+
+  #section3 {
+    display: block;
+    width: 100%; height: auto;
+    border: none;
+  }
+
+  article.index {
+    display: block;
+    width: 100%; height: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+  }
+
+  article.index-left {
+    display: block;
+    float: left;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding: 1%;
+    padding-bottom: 20px;
+  }
+
+  article.index-right {
+    display: block;
+    float: right;
+    width: 98%; height: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding: 1%;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .widget-footer{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+
+/*========================================
+Estilos single
+========================================*/
+
+@media screen and (max-width: 1280px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 55%; height: auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 28%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 1140px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 70%; height: auto;
+    border-bottom: 1.5px solid black;
+    padding-left: 15%; padding-right: 15%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 45%; height: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  h2{
+    border: none;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 80%; height: auto;
+    border-bottom: 1.5px solid black;
+    padding-left: 10%; padding-right: 10%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 45%; height: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  h2{
+    border: none;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 80%; height: auto;
+    border-bottom: 1.5px solid black;
+    padding-left: 10%; padding-right: 10%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 45%; height: auto;
+    margin-top: 30px;
+  }
+
+  h2{
+    border: none;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 85%; height: auto;
+    border-bottom: 1.5px solid black;
+    padding-left: 7.5%; padding-right: 7.5%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 90%; height: auto;
+    margin-top: 30px;
+  }
+
+  h2{
+    border: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  main {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.single {
+    display: block;
+    width: 90%; height: auto;
+    padding-left: 5%; padding-right: 5%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  p.author-post {
+    display: block;
+  }
+
+  aside.lista {
+    display: block;
+    width: 90%; height: auto;
+    margin-top: 30px;
+  }
+
+  aside.lista ol{
+    border: none;
+  }
+
+  aside.lista ol li a {
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+  }
+
+  h2{
+    border: none;
+  }
+
+}
+
+/*========================================
+Estilos single-interview
+========================================*/
+
+@media screen and (max-width: 1140px) {
+
+  article.single-interview{
+    display: block;
+    width: 65%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  article.single-interview{
+    display: block;
+    width: 70%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  article.single-interview{
+    display: block;
+    width: 75%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  article.single-interview{
+    display: block;
+    width: 85%; height: auto;
+  }
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  article.single-interview{
+    display: block;
+    width: 100%; height: auto;
+    padding: 0;
+  }
+
+}
+
+
+
+
+/*========================================
+Estilos archive
+========================================*/
+
+@media screen and (max-width: 1140px) {
+
+  section.archive {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+  article.archive {
+    display: block;
+    width: 50%; height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  article.archive img {
+    width: 75%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  section.archive {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+  article.archive {
+    display: block;
+    width: 60%; height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  article.archive img {
+    width: 80%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  section.archive {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+  article.archive {
+    display: block;
+    width: 80%; height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  article.archive img {
+    width: 85%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  section.archive {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+  article.archive {
+    display: block;
+    width: 80%; height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  article.archive img {
+    width: 100%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  section.archive {
+    display: block;
+    width: 90%; height: auto;
+  }
+
+  article.archive {
+    display: block;
+    width: 90%; height: auto;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  article.archive img {
+    width: 100%; height: auto;
+  }
+}
+
+
+/*========================================
+Estilos page-calendar
+========================================*/
+
+
+@media screen and (max-width: 1140px) {
+
+  main {
+    width: 100%; height: auto;
+  }
+
+  section.calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.calendar{
+    width: 70%; height: auto;
+  }
+
+  .calendar h1.title-calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  section.calendar {
+    display: block;
+    width: 100%; height: auto;
+    right: 0;
+  }
+
+  article.calendar{
+    width: 80%; height: auto;
+     margin: 0 auto;
+  }
+
+  .calendar h1.title-calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  section.calendar {
+    display: block;
+    width: 100%; height: auto;
+    right: 0;
+  }
+
+  article.calendar{
+    width: 80%; height: auto;
+    margin: 0 auto;
+  }
+
+  .calendar h1.title-calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  section.calendar {
+    display: block;
+    width: 100%; height: auto;
+    right: 0;
+  }
+
+  article.calendar{
+    width: 80%; height: auto;
+    margin: 0 auto;
+  }
+
+  .calendar h1.title-calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  section.calendar {
+    display: block;
+    width: 100%; height: auto;
+    right: 0;
+  }
+
+  article.calendar{
+    width: 100%; height: auto;
+    margin: 0 auto;
+  }
+
+  .calendar h1.title-calendar {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+/*========================================
+Estilos Libra x Libra
+========================================*/
+
+
+@media screen and (max-width: 1140px) {
+
+  .libra {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.libra {
+    display: block;
+    width: 75%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .libra {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.libra {
+    display: block;
+    width: 80%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .libra {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.libra {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .libra{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.libra {
+    display: block;
+    width: 90%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  article.libra {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+}
+
+/*========================================
+Estilos Completo
+========================================*/
+
+@media screen and (max-width: 1140px) {
+
+  article.completo{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .texto-completo {
+    display: block;
+    width: 65%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  article.completo{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .texto-completo {
+    display: block;
+    width: 70%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  article.completo{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .texto-completo {
+    display: block;
+    width: 75%; height: auto;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  article.completo{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .texto-completo {
+    display: block;
+    width: 85%; height: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+  article.completo{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .texto-completo {
+    display: block;
+    width: 95%; height: auto;
+  }
+
+}
+
+
+/*========================================
+Estilos Contacto
+========================================*/
+
+@media screen and (max-width: 1140px) {
+
+  .contacto{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  h1.title-contacto {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.contacto {
+    display: block;
+    width: 60%; height: auto;
+    margin-left: auto; margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .contacto{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  h1.title-contacto {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.contacto {
+    display: block;
+    width: 70%; height: auto;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .contacto{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  h1.title-contacto {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.contacto {
+    display: block;
+    width: 80%; height: auto;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .contacto{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  h1.title-contacto {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.contacto {
+    display: block;
+    width: 90%; height: auto;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .contacto{
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  h1.title-contacto {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  article.contacto {
+    display: block;
+    width: 100%; height: auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+
 }
