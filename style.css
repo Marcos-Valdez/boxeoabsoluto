@@ -1,509 +1,267 @@
 /*
-Theme Name: Training
-Author: Marcos Valdez Contreras
-Description: Entrenamiento continuo
+
+Theme Name: Boxeo Absoluto
+Description: Lo más relevante del deporte de los puños
 Version: 1.0
+Author: Marcos Valdez Contreras
+
 */
 
 
-/*========================================
+
+/*===================================================
 Estilos generales
-========================================*/
+====================================================*/
 
-
-* {
-  margin: 0;
-  padding: 0;
+*{
+  margin: 0; padding: 0;
 }
 
-a {
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Fredoka+One', sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  line-height: 1.25;
+}
+
+a{
   color: black;
   text-decoration: none;
 }
 
-a:hover {
-  color: #932026;
+a:hover{
+  color: #2d6174;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-size: 1.3em;
-  font-style: normal;
-  font-weight: 400;
-  font-family: Dosis;
+h1{
+  font-family: Lato-BoldItalic;
+  font-size: 250%;
+  margin-bottom: 10px;
 }
 
-h1 {
-  font-size: 1.7em;
-  font-weight: 600;
-  font-style: italic;
-  font-family: Dosis-Bold;
-  margin-bottom: 5px;
+h1 a{
+  text-decoration: none;
+  color: black;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: 600;
-  font-style: italic;
-  font-family: Dosis-Medium;
-  margin-bottom: 5px;
+  font-family: Merriweather;
+  font-size: 120%;
+  margin-bottom: 10px;
 }
 
+h3 {
+	margin-bottom: 6px;
+	font-size: 28px;
+	line-height: 1.2857;
+}
 
-
-p {
-  font-size: 1.1em;
-  font-style: normal;
+p{
+  font-family: lato;
+  font-size: 100%;
   font-weight: 400;
-  font-family: Open Sans;
-  text-transform: full-width;
+
 }
 
-p.date {
-  font-size: .8em;
-  font-weight: normal;
-  margin: 5px 0px;
-}
 
-p.categories {
-  margin-bottom: 3px;
-  font-size: .9em;
-  font-style: bold;
-  font-weight: 500;
-  font-family: Lato;
-}
-
-p.tags {
-  margin: 30px 0px;
-  padding: 15px 0px;
+p#info{
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
-  color: #932026
+  border-bottom: 1px solid #ccc;
+  padding: 13px 0px;
+  font-size: 90%;
 }
 
-p#copyright {
-  padding-bottom: 15px;
-  color: white;
-  font-family: raleway;
-  text-align: center;
-}
-
-ul, ul li, ul li a {
+ul{
   list-style-type: none;
 }
 
-ol, ol li, ol li a {
-  /*list-style-type: none;*/
+.post-categories{
+  float: left;
+  margin: 10px 0px;
+  padding: 2px 5px;
 }
 
-img {
+p#copyright{
+  float: left;
   width: 100%; height: auto;
+  border-top: 1px solid #cccccc;
+  padding: 10px 0px;
+  text-align: center;
 }
 
+p#copyright a{
+  color: white;
+}
 
-/*========================================
-Estilos index
-========================================*/
+.addtoany_header{
+  font-family: Lato-Regular;
+  font-size: 90%;
+}
+
+.addtoany_list.a2a_kit_size_32 a > span {
+    border-radius: 0px;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    opacity: 1;
+    width: 32px;
+}
+
+/*===================================================
+Body styles
+====================================================*/
 
 
-body {
+body{
+  background-color: white;
+
+}
+
+#all{
+  width: 85%; height: auto;
+  margin: 0 auto;
   background-color: white;
 }
 
-#all {
-  width: 90%; height: auto;
-  margin: 0 auto;
-}
-
-header {
-  float: left;
+header{
   width: 100%; height: 150px;
   background-color: #932026;
 }
 
-section.search{
-  float: left;
-  width: 33.3333%; height: 150px;
-  background: #932026;
-}
-
-section.imgHeader{
-  float: left;
-  width: 33.333%; height: auto;
-}
-
-section.imgHeader img {
-  display: block;
-  margin: 0 auto;
-  width: 375px; height: 150px;
-}
-
-section.redes{
-  float: left;
-  width: 33.3333%; height: auto;
-}
-
-section.redes img {
+header a img.redes{
   float: right;
-  width: 40px; height: 40px;
-  margin-top: 50px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 5px;
+  margin-top: 15px;
+  width: 35px; height: 35px;
 }
 
-.menu-trigger{
+header img.logo{
   float: left;
-  display: none;
+  width: 300px;
+  height: 150px;
 }
 
-nav {
-  float: left;
-  width: 100%; height: auto;
+
+nav{
+  float: right;
+  margin-right: 30px;
 }
 
 nav ul{
-  float: left;
-  width: 100%;
+  list-style-type: none;
+  margin-top: 65px;
 }
 
 nav ul li{
-  list-style-type: none;
+  display: inline;
+  margin-left: 40px;
 }
 
 nav ul li a{
-  float: left;
-  display: block;
-  width: 20%; height: auto;
-  padding: 13px 0px;
-  font-size: 1.2em;
-  font-weight: 500;
-  font-family: Raleway-Regular;
-  background-color: white;
-  border-bottom: 1px solid #cccccc;
-  color: black;
-  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 110%;
+  color: white;
+  text-decoration: none;
 }
 
-main {
-  float: left;
-  width: 98%; height: auto;
-  padding-top: 50px;
-  padding-left: 1%; padding-right: 1%;
-  background-color: white;
+nav ul li a:hover{
+  transition: 200ms;
+  color: #fbad81;
 }
 
-img.main {
-  padding: 3px 0px;
-}
-
-#section1 {
-  float: left;
-  width: 43%; height: auto;
-  border-right: 1px dotted #cccccc;
-  padding: 1%;
-}
-
-#section2 {
-  float: left;
-  width: 25%; height: auto;
-  padding: 1%;
-}
-
-#section3 {
-  float: left;
-  width: 25%; height: auto;
-  border-left: 1px dotted #cccccc;
-  padding: 1%;
-}
-
-article.index {
+main{
   float: left;
   width: 100%; height: auto;
-  margin-bottom: 20px;
+  border-bottom: 1.5px solid #cccccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-footer {
+article.list-articles{
+  width: 65%; height: auto;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%; height: auto;
+}
+
+article.articles{
+  float: left;
+  width: 63%; height: auto;
+  position: relative;
+  left: 60px;
+}
+
+aside.widget{
+  float: right;
+  width: 32%; height: auto;
+  margin: 10px 0px;
+  padding-left: 3%;
+}
+
+aside.widget ol{
+  width: 100%; height: auto;
+}
+
+aside.widget ol li{
+  margin: 0; padding: 0;
+  list-style-type: none;
+}
+
+aside.widget ol li a{
+  display: block;
+  width: 100%; height: auto;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0px;
+  color: #67050A;
+  text-decoration: none;
+}
+
+aside.widget ol li a:hover{
+  color: blue;
+}
+
+footer{
   float: left;
   width: 100%; height: auto;
   background-color: #932026;
 }
 
-.widget-footer{
+
+aside.footer{
   float: left;
-  width: 50%;
-  margin: 6px 0px;
-  padding: 6px 0px;
-  border-bottom: 1.5px solid silver;
-  text-align: center;
-}
-
-.widget-footer h3{
-  padding: 13px 0px;
-  color: white;
-  font-family: raleway;
-  text-rendering: optimizeLegibility;
-  text-transform: full-width;
-}
-
-.widget-footer ul li{
-  padding: 10px 0px;
-}
-
-.widget-footer ul li a{
-  font-size: 100%;
-  font-weight: 400;
-  font-family: raleway;
-  text-rendering: optimizeLegibility;
-  text-transform: full-width;
-  color: white;
-}
-
-/*========================================
-Estilos single
-========================================*/
-
-main {
-  width: 100%; height: auto;
-  margin: 0 auto;
-  padding-bottom: 60px;
-}
-
-article.single{
-  float: left;
-  width: 55%; height: auto;
-  padding-left: 7.5%; padding-right: 7.5%;
-}
-
-article.single-interview{
-  width: 55%; height: auto;
-  margin: 0 auto;
-  padding-left: 7.5%; padding-right: 7.5%;
-}
-
-p.author-post {
-  font-size: 1em;
-  font-family: lato-Regular;
-  margin-bottom: 20px;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
-  padding: 13px 0px;
-}
-
-img.single {
-  width: 100%; height: 100%;
-  margin: 10px 0px;
-}
-
-img.single img{
-  width: 700px; height: 350px;
-}
-
-aside.lista{
-  float: left;
-  width: 28%; height: auto;
-  padding-left: 1%; padding-right: 1%;
-}
-
-aside.lista{
-  float: left;
-  width: 28%; height: auto;
-  padding-left: 1%; padding-right: 1%;
-}
-
-h2 {
-  font-size: 1.5em;
-  font-weight: 600;
-  font-style: normal;
-  font-family: Dosis;
-  margin-bottom: 5px;
-  color: #932026;
-  border-bottom: 1px solid #932026;
-
-}
-
-aside.lista ol{
-  border-bottom: 1px solid #cccccc;
-}
-
-aside.lista ol li {
-  padding: 16px 0px;
-
-}
-
-aside.lista ol li a {
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 400;
-  font-family: Open Sans;
-}
-
-
-/*========================================
-Estilos single-interview
-========================================*/
-
-
-article.single-interview{
-  width: 55%; height: auto;
-  margin: 0 auto;
-  padding-left: 7.5%; padding-right: 7.5%;
-}
-
-/*========================================
-Estilos archive
-========================================*/
-
-main {
-  width: 100%; height: auto;
-}
-
-section.archive {
-  width: 85%; height: auto;
-  margin: 0 auto;
-}
-
-h1.section {
-  width: 100%; height: auto;
-  margin: 0 auto;
-  padding: 3px;
-  border-bottom: 1.5px solid black;
-  text-align: center;
-  font-size: 2.5em;
-  font-style: normal;
-  font-family: monospace;
-}
-
-article.archive {
   width: 50%; height: auto;
-  padding: 15px;
-  border-bottom: 1px solid #cccccc;
+  padding: 15px 0px;
 }
 
-h1.archive-title{
-  width: 100%; height: auto;
-  margin: 0;
-  padding-bottom: 10px;
-}
-
-article.archive img {
-  width: 70%; height: auto;
-}
-
-img.archive-img{
-  width: 400px; height: 200px;
-}
-
-p.date-archive{
-  width: 100%; height: auto;
-  font-size: .8em;
-  font-weight: normal;
-  margin: 5px 0px;
-}
-
-p.excerpt-archive{
-  width: 100%; height: auto;
-}
-
-
-/*========================================
-Estilos page-calendar
-========================================*/
-
-section.calendar {
-  width: 80%; height: auto;
-  margin: 0 auto;
-  padding: 5px 0px;
-  padding-bottom: 30px;
-}
-
-article.calendar{
-  width: 100%; height: auto;
-  margin: 0 auto;
-}
-
-h1.title-calendar {
-  width: 100%; height: auto;
-  margin: 0 auto;
-  padding-bottom: 30px;
+aside.footer h2{
   text-align: center;
-  font-size: 3em;
-  font-style: italic;
+  color: white;
 }
 
-img.img-calendar{
-  margin-bottom: 30px;
-}
-
-/*========================================
-Estilos page-libraxlibra
-========================================*/
-
-
-article.libra{
-  width: 80%; height: auto;
-  margin: 0 auto;
-  padding-bottom: 30px;
-}
-
-.libra h1.title-libra{
+aside.footer ol{
   width: 100%; height: auto;
-  margin: 0 auto;
-  padding-bottom: 30px;
+  list-style-type: none;
+}
+
+aside.footer ol li{
+  margin: 0; padding: 0;
+  list-style-type: none;
+}
+
+aside.footer ol li a{
+  display: block;
+  width: 100%; height: auto;
+  padding: 10px 0px;
+  color: white;
+  font-family: Raleway;
   text-align: center;
-  font-size: 3em;
-  font-style: italic;
+  text-decoration: none;
 }
 
-img.img-libra{
-  margin-bottom: 30px;
-}
-
-/*========================================
-Estilos page-especial
-========================================*/
-
-article.completo{
-  width: 100%; height: auto;
-  padding-bottom: 30px;
-}
-
-h1.completo-title{
-  width: 100%; height: auto;
-  margin: 0 auto;
-  padding-bottom: 30px;
-  text-align: left;
-  font-size: 2em;
-  font-style: italic;
-}
-
-img.img-completo {
-    margin-bottom: 20px;
-}
-
-.texto-completo {
-  width: 60%; height: auto;
-  margin: 0 auto;
-}
-
-
-/*========================================
-Estilos page-contacto
-========================================*/
-
-.contacto{
-  width: 100%; height: auto;
-}
-
-h1.title-contacto {
-  width: 100%; height: auto;
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-  font-size: 3em;
-  font-style: italic;
-  border-bottom: 1.5px solid black;
-}
-
-article.contacto {
-  float: left;
-  width: 55%; height: auto;
-  border-radius: 5px 5px 5px 5px;
+aside.footer ol li a:hover{
 }
